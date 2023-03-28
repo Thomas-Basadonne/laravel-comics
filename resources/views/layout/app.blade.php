@@ -10,10 +10,12 @@
      @vite('resources/js/app.js')
  </head>
  <body>
-    <h1>titolo pagina</h1>
-
-    <p>
+    @include('partials._navbar')
+    
+    <main>
         @yield('main')
-    </p>
+    </main>
+
+    @include('partials._footer')
  </body>
  </html>
