@@ -10,6 +10,10 @@
      @vite('resources/js/app.js')
  </head>
  <body>
-    
+    <h1>titolo pagina</h1>
+
+    <p>
+        @yield('main')
+    </p>
  </body>
  </html>
